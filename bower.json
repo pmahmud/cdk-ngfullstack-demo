@@ -1,0 +1,17 @@
+{
+  "name": "cdkNgfullstackDemo",
+  "version": "0.1.0",
+  "dependencies": {
+    "angular": "~1.3.0",
+    "angular-route": "~1.3.0",
+    "angular-cookies": "~1.3.0",
+    "angular-resource": "~1.3.0",
+    "angular-sanitize": "~1.3.0",
+    "angular-animate": "~1.3.0",
+    "bootstrap": "~3.3.5"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.3.0",
+    "angular-scenario": "~1.3.0"
+  }
+}

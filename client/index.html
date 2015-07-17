@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html ng-app="cdkNgfullstackDemo">
+  <head>
+
+    <base href="/">
+
+    <title>cdkNgfullstackDemo</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+
+    <!-- build:css app.css -->
+
+    <!-- bower:css -->
+    <!-- endinject -->
+
+    <link rel="stylesheet" href="styles/css/app.css">
+
+    <!-- endbuild -->
+
+  </head>
+  <body>
+
+    <strong>cdkNgfullstackDemo</strong>
+
+    <div ng-view></div>
+
+    <!-- build:js app.js -->
+
+    <!-- bower:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- endinject -->
+
+    <!-- inject:js -->
+    <script src="app.js"></script>
+    <script src="views/home/home.js"></script>
+    <script src="views/home/home.controller.js"></script>
+    <script src="views/test/test.js"></script>
+    <script src="views/test/test.controller.js"></script>
+    <script src="services/rest/rest.resource.js"></script>
+    <!-- endinject -->
+
+    <!-- endbuild -->
+
+  </body>
+</html>
